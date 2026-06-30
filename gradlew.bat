@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set GRADLE_VERSION=8.13
+set GRADLE_VERSION=9.6.0
 set APP_HOME=%~dp0
 set DIST_DIR=%USERPROFILE%\.gradle\wrapper\dists\gradle-%GRADLE_VERSION%-bin
 set ZIP_FILE=%DIST_DIR%\gradle-%GRADLE_VERSION%-bin.zip

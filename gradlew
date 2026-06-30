@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 
-GRADLE_VERSION="8.13"
+GRADLE_VERSION="9.6.0"
 APP_HOME=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 
 GRADLE_USER_HOME="${GRADLE_USER_HOME:-$HOME/.gradle}"

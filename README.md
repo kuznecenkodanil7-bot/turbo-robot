@@ -57,5 +57,6 @@ build/libs/
 - Fabric Loader: `0.18.1`
 - Fabric API: `0.139.4+1.21.11`
 - Loom: `1.14-SNAPSHOT`
+- Gradle wrapper: `9.6.0`
 
 Если Fabric API обновится, можно заменить `fabric_version` на более новую версию для 1.21.11.
