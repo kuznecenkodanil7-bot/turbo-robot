@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "chatwindows",
+  "version": "${version}",
+  "name": "Chat Windows",
+  "description": "Отдельные дублирующие окна чата с фильтрами по ключевым словам для каждого окна.",
+  "authors": ["RaidMine"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.raidmine.chatwindows.ChatWindowsMod"
+    ]
+  },
+  "mixins": [
+    "chatwindows.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
