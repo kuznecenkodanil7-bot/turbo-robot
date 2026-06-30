@@ -4,10 +4,6 @@ set -e
 GRADLE_VERSION="8.13"
 APP_HOME=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 
-if command -v gradle >/dev/null 2>&1; then
-  exec gradle "$@"
-fi
-
 GRADLE_USER_HOME="${GRADLE_USER_HOME:-$HOME/.gradle}"
 DIST_DIR="$GRADLE_USER_HOME/wrapper/dists/gradle-$GRADLE_VERSION-bin"
 ZIP_FILE="$DIST_DIR/gradle-$GRADLE_VERSION-bin.zip"
